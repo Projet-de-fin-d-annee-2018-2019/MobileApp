@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451875924495",
+    "firebase_url": "https://recommendme2-6fd5d.firebaseio.com",
+    "project_id": "recommendme2-6fd5d",
+    "storage_bucket": "recommendme2-6fd5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451875924495:android:a5e6939154767afe",
+        "android_client_info": {
+          "package_name": "tn.insat.recommendme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451875924495-uqec5f7b86g415shf3l34ovsurbkknrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.insat.recommendme",
+            "certificate_hash": "6c0bc8fe1490416715d50ce61997af4d50e007c4"
+          }
+        },
+        {
+          "client_id": "451875924495-qghcrqv1voljpf401q2n6eak72i2au4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3iRCJz8gIi3eqyWNtZRr8ieGZAcKvz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451875924495-qghcrqv1voljpf401q2n6eak72i2au4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

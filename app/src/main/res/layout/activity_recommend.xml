@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tn.insat.recommendme.RecommendActivity">
+
+    <LinearLayout
+        android:id="@+id/llAfterLoginView"
+        android:layout_width="424dp"
+        android:layout_height="168dp"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="200dp"
+        android:visibility="visible"
+
+        ></LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:contentDescription="logo"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/recn"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/myinterest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="         Votre centre d'intérêt est le"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingTop="80dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="75dp" />
+    <TextView
+        android:id="@+id/showtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="80dp"
+        android:paddingLeft="200dp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="75dp" />
+    <TextView
+        android:id="@+id/recommend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="110dp"
+        android:text="         Voulez vous suivre de nouveaux influenceurs ?"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="309dp"
+        android:layout_height="710dp"
+        android:contentDescription="logofollow"
+        android:src="@drawable/follow"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
